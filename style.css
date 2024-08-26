@@ -15,12 +15,15 @@
     --cor3: #a31c12;
     --cor4: #bd3838;
     --cor5: #8d2d06;
+
+    --fontprincipal: "Roboto", sans-serif;
 }
 
 header {
     background-color: white;
     min-height: 150px;
     text-align: justify;
+    padding-bottom: 50px;
 }
 
 .logo {
@@ -30,6 +33,7 @@ header {
     width: 300px;
     height: 150px;
     padding-top: 0px;
+    margin-left: 50px
 }
 
 
@@ -79,7 +83,7 @@ header {
     color: var(--cor2);
     text-decoration: none;
     font-size: 1.3rem;
-    border-radius: 15px;
+    border-radius: 40px;
     padding: 5px  5px ;
     border: var(--cor2);
     border-style: solid;
@@ -97,10 +101,57 @@ header {
    
 }
 
+main article > h1 {
+    color: white;
+    font-family: var(--fontprincipal);
+    font-size: 2em;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    
+}
 
+main article > p {
+    color: white;
+    font-family: var(--fontprincipal);
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+main article p > strong {
+    color: white;
+    font-family: var(--fontprincipal);
+    
+}
+
+main article p strong > br {
+    padding-top: 30px;
+}
 
 
 main {
     background-color: #ea1d2c;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
+}
+
+.botao-principal {
+    color: white;
+    background-color: var(--cor0);
+    border: none;
+    border-radius: 10px;
+    padding: 17px 60px;
+    font-family: var(--fontprincipal);
+    font-size: 1.4em;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.085) ;
+    align-items: center;
+    padding-left: 50px;
+    margin-left: 50px;
+    
+}
+
+.botao-principal:hover {
+    background-color: #f9b238;
+
 }
